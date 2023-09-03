@@ -21,14 +21,14 @@ export async function getContent({ context, prefix }): Promise<{ slug: string; t
     // Add the slug to the post object
     Object.assign(entry, { slug });
 
-    content.push({
-      slug,
-      title: entry.title,
-      ...(prefix === 'blog' && {
-        excerpt: createExcerpt({ text: entry.content }),
-      }),
-      featuredImage: entry.featuredImage,
-    });
+    //content.push({
+      //slug,
+      //title: entry.title,
+     // ...(prefix === 'blog' && {
+       // excerpt: createExcerpt({ text: entry.content }),
+      //}),
+     // featuredImage: entry.featuredImage,
+  //  });
   }
 
   return content;
