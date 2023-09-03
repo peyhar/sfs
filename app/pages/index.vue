@@ -39,7 +39,7 @@
           // class="rounded shadow-xl"
           // src="https://source.unsplash.com/random/720x400"
         // />
-     </div>
+     // </div>
     </div>
   </section>
 </template>
