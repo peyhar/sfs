@@ -1,8 +1,8 @@
 {
-  "name": "Bluise",
-  "shortName": "Bluise",
-  "description": "A Nuxt.js & Netlify CMS boilerplate.",
-  "themeColor": "#0b3765",
+  "name": "JHHS Students for Sustainability",
+  "shortName": "JHHS SFS",
+  "description": "Environment • Community • Future",
+  "themeColor": "#7ac143",
   "backgroundColor": "#ffffff",
   "lang": "en"
 }
